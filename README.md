@@ -1,6 +1,11 @@
 # GeoServer load tests
 
-Perform load tests using [JMeter](https://jmeter.apache.org/).
+Perform load tests using [JMeter](https://jmeter.apache.org/) in three easy steps:
+
+* Setup: adapt `.jmx` template and create text files with BBOX parameters to use, manually =(.
+* Generate tests (`generate_tests.sh`)
+* Run (`run.sh`)
+
 
 ## Setup
 
